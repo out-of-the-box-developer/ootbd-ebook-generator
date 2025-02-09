@@ -7,8 +7,7 @@ Inspired by @bmf-san [docs-md-to-pdf-example](https://github.com/bmf-san/docs-md
 
 ## Installation 
 
-First, install dependencies
-`npm install`
+First, install dependencies `npm install` 
 
 ## Generate PDF
 
