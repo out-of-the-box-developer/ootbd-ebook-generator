@@ -4,8 +4,23 @@ This is a markdown format documents to PDF format generator. It supports emoji, 
 Inspired by @bmf-san [docs-md-to-pdf-example](https://github.com/bmf-san/docs-md-to-pdf-example.git)
 
 # Get Started
-You can try with the following steps:
 
-1. Install dependencies: `npm install`
-2. `Place your Markdown in `/md` folder
-3. Generate your PDF `npm run gen`.
+## Installation 
+
+First, install dependencies
+`npm install`
+
+## Generate PDF
+
+Follow these steps to generate PDF from your markdown files:
+
+1. Place your markdown files in `/md` folder.
+2. Generate your PDF `npm run gen-pdf`.
+
+## Generate Table of Content
+
+Follow these steps to generate Table of Content of your markdown files:
+
+1. Place your Markdown in `/md` folder.
+2. Generate Table of Content `npm run gen-doctoc`. This command will change your markdown file to add Table of Content.
+3. Then generate your PDF `npm run gen-pdf`.
